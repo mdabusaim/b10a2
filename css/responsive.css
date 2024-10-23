@@ -1,0 +1,89 @@
+@media (max-width: 768px) {
+  .navbar-main {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .nav-btn {
+    margin-top: 10px;
+    padding: 10px 0;
+    border-radius: 0;
+  }
+
+  a {
+    padding: 15px 20px;
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .nav-containet {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .nav-btn {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow wrapping */
+    justify-content: center;
+    /* Center the items */
+  }
+
+  .habit-main,
+  .bmi-heading {
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+    /* Center text */
+  }
+
+  .quotes-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quotes-section div {
+    margin-bottom: 20px;
+  }
+
+  .run-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  img {
+    width: 100%;
+    /* Full width for images */
+    margin-top: 20px;
+    /* Add spacing above images */
+  }
+
+  .trainer-img {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-right {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .text-box {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  #section-factor {
+    width: 90%;
+    padding: 5px;
+  }
+}
